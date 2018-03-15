@@ -1,0 +1,63 @@
+body{
+  background-image: url(../img/ninja.jpg);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: auto;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img:not(.logo) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2{
+font-family: URW Chancery L, cursive;
+}
+
+
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  color: brown;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+a:active{
+  color: red;
+}
+
+.externo {
+  background-image: url(../img/globo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 25px;
+}
+
+.note{
+  opacity: 0.7;
+}
+
+.number{
+  display: block;
+  background-color: grey;
+  font-size:22px;
+  padding: 10px;
+}
